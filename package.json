@@ -1,0 +1,16 @@
+{
+  "name": "nlw",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "nodemon src/server.js"
+  },
+  "author": "",
+  "dependencies": {
+    "express": "^4.18.2",
+    "nunjucks": "^3.2.3",
+    "sqlite3": "^5.1.6"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.22"
+  }
+}

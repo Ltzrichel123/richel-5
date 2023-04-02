@@ -1,0 +1,34 @@
+/* zerar as margins e o padding */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* VARIAVEIS */
+:root {
+  --title-color: #322153;
+  --primary-color: #34cb79;
+  --segund-color: #B0C4DE;
+}
+
+/* FONTE DA PAGINA */
+html {
+  font-family: 'Roboto', sans-serif;
+}
+
+body {
+  background: var(--segund-color);
+  -webkit-font-smoothing: antialiased;
+}
+
+/* todos os elementos A n sera sublinhado */
+a {
+  text-decoration: none;
+}
+
+/* todos os elementos H Ira receber essa font */
+h1, h2, h3, h4 {
+  font-family: 'Ubuntu', sans-serif;
+  color: var(--title-color);
+}
